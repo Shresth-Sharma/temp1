@@ -19,7 +19,7 @@ function setup() {
   h1 = new Hero(200,200,200,100);
   g1 = new Ground(675,560,1350,20);
   //s1 = new Ground(200,200,200,200);
-  s1 = new Fly(h1.body);
+  s1 = new Fly(h1.body,{x : 200 , y : 200});
 }
 
 function draw() {
